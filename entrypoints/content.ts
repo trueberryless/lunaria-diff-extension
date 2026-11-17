@@ -25,7 +25,7 @@ export default defineContentScript({
           const sinceFull = url.searchParams.get("since") ?? "";
           const since = sinceFull.split("T")[0];
 
-          const diffUrl = `https://git-diff-viewer.trueberryless.org/diff?repo=${encodeURIComponent(
+          const diffUrl = `https://git-diff-viewer.netlify.app/diff?repo=${encodeURIComponent(
             repo
           )}&file=${encodeURIComponent(file)}&since=${encodeURIComponent(since)}`;
 
