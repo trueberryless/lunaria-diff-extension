@@ -28,7 +28,7 @@ export default defineConfig({
       'https://i18n.docs.astro.build/',
       'https://i18n.starlight.astro.build/',
       'https://i18n.docs.studiocms.dev/',
-      'https://mutanuq.trueberryless.org/lunaria/'
+      'https://mutanuq.netlify.app/lunaria/'
 		],
 	},
 });
