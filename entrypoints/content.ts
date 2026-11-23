@@ -23,7 +23,7 @@ export default defineContentScript({
 
           // since = YYYY-MM-DD (strip time)
           const sinceFull = url.searchParams.get("since") ?? "";
-          const since = sinceFull.split("T")[0];
+          const since = sinceFull.split("T")[0] ?? "";
 
           const diffUrl = `https://git-diff-viewer.netlify.app/diff?repo=${encodeURIComponent(
             repo
