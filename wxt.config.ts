@@ -6,7 +6,6 @@ export default defineConfig({
     const defaults = {
       name: "Lunaria Diff Viewer",
       description: "Adds diff viewer links to Lunaria dashboards.",
-      version: "0.1.0",
     };
 
     const mv3 = {
